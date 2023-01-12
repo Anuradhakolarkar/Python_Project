@@ -6,7 +6,7 @@ qr = qrcode.QRCode(
     border = 5 
 )
 
-data = "https://www.youtube.com/watch?v=onHPipeASdk&list=PLpp8-k7G_6Y3Wj1suZQ-9lATFzFuGw93x&ab_channel=TechieCoder"
+data = "www.google.com"
 
 qr.add_data(data)
 qr.make(fit = True)
